@@ -39,8 +39,10 @@ class: text-center
 
 ---
 layout: center
-class: text-center
+class: text-left
 ---
+
+# 💬 开放讨论
 
 <div class="flex flex-col items-center space-y-8">
   <img 

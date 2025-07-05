@@ -58,7 +58,7 @@ layout: default
     <div class="flex items-start space-x-3">
       <div class="w-3 h-3 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
       <div>
-        <div class="font-semibold text-gray-800">AI时代开发新范式</div>
+        <div class="font-semibold text-gray-800">AI应用开发最佳实践</div>
         <div class="text-sm text-gray-600">智能化工作流程与实践</div>
       </div>
     </div>

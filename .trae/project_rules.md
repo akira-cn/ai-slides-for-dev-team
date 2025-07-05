@@ -217,6 +217,27 @@ pnpm dev
 - 禁止官方Toc组件，禁止Markdown代码块放入Vue组件。
 - HTML标签内不得有空行。
 
+## 💬 开放讨论页面设计原则
+
+- **极简设计**：只使用图片 + 问题的简洁形式，避免冗余内容。
+- **标准结构**：
+  ```markdown
+  # 💬 开放讨论
+  
+  <div class="flex flex-col items-center space-y-8">
+    <img 
+      src="图片链接" 
+      alt="场景描述" 
+      class="max-w-lg w-full h-auto rounded-lg shadow-lg"
+    />
+    <h1 class="text-4xl font-bold text-gray-800 dark:text-white">
+      核心讨论问题
+    </h1>
+  </div>
+  ```
+- **禁止添加**：详细的讨论话题列表、分享要点、额外说明文字等冗余内容。
+- **核心原则**：一张图片 + 一个核心问题，让观众自然参与讨论。
+
 ## 🧠 AI协作提示
 
 - 当需要AI生成内容时，可使用以下提示：

@@ -54,7 +54,7 @@ hide: false
 ---
 
 ---
-src: ./pages/topic_3_dev_paradigm.md
+src: ./pages/topic_3_best_practice.md
 hide: false
 ---
 
