@@ -4,24 +4,30 @@ layout: default
 
 # 培训聚焦方向
 
-<div class="grid grid-cols-3 gap-8 pt-8">
+<div class="grid grid-cols-2 gap-4 pt-6 max-w-4xl mx-auto">
 
-<div class="bg-gradient-to-br from-blue-500 to-purple-600 p-6 rounded-lg text-white">
-  <div class="text-2xl mb-4">🎯</div>
-  <h3 class="text-xl font-bold mb-2">前端主导大模型应用</h3>
-  <p class="text-sm opacity-90">探索前端在AI应用中的主导作用，掌握大模型集成技术</p>
+<div class="bg-gradient-to-br from-blue-500 to-purple-600 p-4 rounded-xl text-white shadow-lg">
+  <div class="text-2xl mb-2">🎯</div>
+  <h3 class="text-lg font-bold mb-2">AI时代前端核心价值</h3>
+  <p class="text-xs opacity-90 leading-tight">重新定义前端工程师在AI应用中的价值定位，从用户体验守护者到AI能力整合者的角色转变</p>
 </div>
 
-<div class="bg-gradient-to-br from-green-500 to-teal-600 p-6 rounded-lg text-white">
-  <div class="text-2xl mb-4">🚀</div>
-  <h3 class="text-xl font-bold mb-2">AI助力团队建设</h3>
-  <p class="text-sm opacity-90">利用AI工具提升团队协作效率，建设智能化开发团队</p>
+<div class="bg-gradient-to-br from-green-500 to-teal-600 p-4 rounded-xl text-white shadow-lg">
+  <div class="text-2xl mb-2">🚀</div>
+  <h3 class="text-lg font-bold mb-2">AI工具生态与实践</h3>
+  <p class="text-xs opacity-90 leading-tight">掌握Vibe Coding模式，熟练运用AI编程助手、代码生成、测试自动化等工具提升开发效率</p>
 </div>
 
-<div class="bg-gradient-to-br from-orange-500 to-red-600 p-6 rounded-lg text-white">
-  <div class="text-2xl mb-4">💻</div>
-  <h3 class="text-xl font-bold mb-2">AI Coding实践</h3>
-  <p class="text-sm opacity-90">实际应用AI进行代码开发，掌握智能编程技巧</p>
+<div class="bg-gradient-to-br from-orange-500 to-red-600 p-4 rounded-xl text-white shadow-lg">
+  <div class="text-2xl mb-2">👥</div>
+  <h3 class="text-lg font-bold mb-2">AI驱动团队架构</h3>
+  <p class="text-xs opacity-90 leading-tight">构建AI友好的技术选型和团队组织架构，实现人机协作的高效开发模式和智能工程规范</p>
+</div>
+
+<div class="bg-gradient-to-br from-purple-500 to-pink-600 p-4 rounded-xl text-white shadow-lg">
+  <div class="text-2xl mb-2">🔮</div>
+  <h3 class="text-lg font-bold mb-2">AI原生开发范式</h3>
+  <p class="text-xs opacity-90 leading-tight">探索AI原生开发的未来趋势，规划个人能力发展路径和职业成长方向，拥抱技术变革</p>
 </div>
 
 </div>

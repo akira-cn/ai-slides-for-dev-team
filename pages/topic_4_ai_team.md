@@ -12,202 +12,491 @@ layout: section
 layout: default
 ---
 
-# 传统研发团队的组织挑战
+# 💬 开放讨论
 
-<div class="grid grid-cols-2 gap-8 mt-8">
+<div class="flex flex-col items-center space-y-8">
+  <img 
+    src="https://bot.hupox.com/resource/9r744efhue/45ec5b51829c43e29c8e6182bda8838d.png" 
+    alt="团队协作开发讨论场景图" 
+    class="max-w-lg w-full h-auto rounded-lg shadow-lg"
+  />
+  <h1 class="text-4xl font-bold text-gray-800 dark:text-white">
+    目前你所在团队协作开发模式是什么样的？
+  </h1>
+</div>
 
+---
+layout: default
+---
+
+# 传统研发团队组织结构现状
+
+<div class="grid grid-cols-5 gap-4 mt-4">
+
+<!-- 左侧：团队层级结构 -->
+<div class="flex flex-col col-span-3">
+  <h3 class="text-lg font-bold mb-6 text-center text-gray-700 dark:text-gray-300">典型9人研发团队结构</h3>
+  
+  <!-- 高级工程师层 -->
+  <div class="flex justify-center mb-4">
+    <div class="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-lg shadow-lg">
+      <div class="text-center">
+        <div class="text-base font-semibold">🎯 技术负责人</div>
+        <div class="text-sm mt-1">高级工程师 (1人)</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 中级工程师层 -->
+  <div class="flex justify-center space-x-4 mb-4">
+    <div class="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-3 rounded-lg shadow-md">
+      <div class="text-center">
+        <div class="text-sm font-semibold">💻 前端</div>
+        <div class="text-xs mt-1">中级工程师</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-3 rounded-lg shadow-md">
+      <div class="text-center">
+        <div class="text-sm font-semibold">⚙️ 后端</div>
+        <div class="text-xs mt-1">中级工程师</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 py-3 rounded-lg shadow-md">
+      <div class="text-center">
+        <div class="text-sm font-semibold">🔧 运维</div>
+        <div class="text-xs mt-1">中级工程师</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 初级工程师层 -->
+  <div class="flex justify-center space-x-2 mb-6">
+    <div class="bg-gradient-to-r from-teal-400 to-teal-500 text-white px-3 py-2 rounded-lg shadow-sm">
+      <div class="text-center">
+        <div class="text-sm font-semibold">👨‍💻</div>
+        <div class="text-xs">前端初级</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-indigo-400 to-indigo-500 text-white px-3 py-2 rounded-lg shadow-sm">
+      <div class="text-center">
+        <div class="text-sm font-semibold">👩‍💻</div>
+        <div class="text-xs">后端初级</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-pink-400 to-pink-500 text-white px-3 py-2 rounded-lg shadow-sm">
+      <div class="text-center">
+        <div class="text-sm font-semibold">🧪</div>
+        <div class="text-xs">测试初级</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-yellow-400 to-yellow-500 text-white px-3 py-2 rounded-lg shadow-sm">
+      <div class="text-center">
+        <div class="text-sm font-semibold">📱</div>
+        <div class="text-xs">移动初级</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-red-400 to-red-500 text-white px-3 py-2 rounded-lg shadow-sm">
+      <div class="text-center">
+        <div class="text-sm font-semibold">🎨</div>
+        <div class="text-xs">UI初级</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 右侧：项目分配情况 -->
+<div class="flex flex-col col-span-2">
+  <h3 class="text-lg font-bold mb-6 text-center text-gray-700 dark:text-gray-300">同时对接多个项目需求</h3>
+  
+  <div class="space-y-2">
+    <!-- 项目A -->
+    <div class="bg-white dark:bg-gray-800 border-2 border-blue-200 dark:border-blue-700 rounded-lg p-2 shadow-md">
+      <div class="text-center mb-2">
+        <div class="text-sm font-bold text-blue-600 dark:text-blue-400">📊 项目A - 数据平台</div>
+        <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">优先级：高</div>
+      </div>
+      <div class="flex flex-wrap gap-2 text-xs">
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-purple-500 rounded-full mr-1"></div>
+           <span>技术负责人 (30%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-blue-500 rounded-full mr-1"></div>
+           <span>前端中级 (80%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-green-500 rounded-full mr-1"></div>
+           <span>后端中级 (60%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-teal-400 rounded-full mr-1"></div>
+           <span>前端初级 (100%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-indigo-400 rounded-full mr-1"></div>
+           <span>后端初级 (100%)</span>
+         </div>
+       </div>
+    </div>
+    <!-- 项目B -->
+    <div class="bg-white dark:bg-gray-800 border-2 border-green-200 dark:border-green-700 rounded-lg p-2 shadow-md">
+      <div class="text-center mb-3">
+        <div class="text-sm font-bold text-green-600 dark:text-green-400">🛒 项目B - 电商系统</div>
+        <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">优先级：中</div>
+      </div>
+      <div class="flex flex-wrap gap-2 text-xs">
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-purple-500 rounded-full mr-1"></div>
+           <span>技术负责人 (40%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-green-500 rounded-full mr-1"></div>
+           <span>后端中级 (40%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-orange-500 rounded-full mr-1"></div>
+           <span>运维中级 (60%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-yellow-400 rounded-full mr-1"></div>
+           <span>移动端初级 (100%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-pink-400 rounded-full mr-1"></div>
+           <span>测试初级 (60%)</span>
+         </div>
+       </div>
+    </div>
+    <!-- 项目C -->
+    <div class="bg-white dark:bg-gray-800 border-2 border-orange-200 dark:border-orange-700 rounded-lg p-2 shadow-md">
+      <div class="text-center mb-3">
+        <div class="text-sm font-bold text-orange-600 dark:text-orange-400">🎯 项目C - 营销工具</div>
+        <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">优先级：低</div>
+      </div>
+      <div class="flex flex-wrap gap-2 text-xs">
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-purple-500 rounded-full mr-1"></div>
+           <span>技术负责人 (30%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-orange-500 rounded-full mr-1"></div>
+           <span>运维中级 (40%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-red-400 rounded-full mr-1"></div>
+           <span>UI初级 (100%)</span>
+         </div>
+         <div class="flex items-center">
+           <div class="w-2 h-2 bg-pink-400 rounded-full mr-1"></div>
+           <span>测试初级 (40%)</span>
+         </div>
+       </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+---
+layout: default
+---
+
+# AI+研发团队组织结构
+
+<div class="grid grid-cols-5 gap-6 mt-6">
+
+<!-- 左侧：AI+团队结构 -->
+<div class="flex flex-col col-span-3">
+  <h3 class="text-base font-bold mb-3 text-center text-gray-700 dark:text-gray-300">AI驱动的“9人”研发团队结构</h3>
+  
+  <!-- 高级工程师层 + AI辅助 -->
+  <div class="flex justify-center mb-2">
+    <div class="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-4 py-2 rounded-lg shadow-lg relative">
+      <div class="text-center">
+        <div class="text-sm font-semibold">🎯 技术负责人</div>
+        <div class="text-xs mt-0.5">高级工程师 (1人)</div>
+        <div class="text-xs mt-0.5 bg-yellow-400 text-black px-1 py-0.5 rounded-full">🤖 AI架构助手</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 中级工程师层 + AI辅助 -->
+  <div class="flex justify-center space-x-2 mb-2">
+    <div class="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-2 py-1.5 rounded-lg shadow-md relative">
+      <div class="text-center">
+        <div class="text-xs font-semibold">💻 前端</div>
+        <div class="text-xs mt-0.5">中级工程师</div>
+        <div class="text-xs mt-0.5 bg-green-400 text-black px-1 py-0.5 rounded">🤖 AI助手</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-green-500 to-green-600 text-white px-2 py-1.5 rounded-lg shadow-md relative">
+      <div class="text-center">
+        <div class="text-xs font-semibold">⚙️ 后端</div>
+        <div class="text-xs mt-0.5">中级工程师</div>
+        <div class="text-xs mt-0.5 bg-green-400 text-black px-1 py-0.5 rounded">🤖 AI助手</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-2 py-1.5 rounded-lg shadow-md relative">
+      <div class="text-center">
+        <div class="text-xs font-semibold">🔧 运维</div>
+        <div class="text-xs mt-0.5">中级工程师</div>
+        <div class="text-xs mt-0.5 bg-green-400 text-black px-1 py-0.5 rounded">🤖 AI助手</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- AI Agent层 -->
+  <div class="flex justify-center space-x-1 mb-3">
+    <div class="bg-gradient-to-r from-cyan-400 to-cyan-500 text-white px-1.5 py-1 rounded shadow-sm border border-cyan-300">
+      <div class="text-center">
+        <div class="text-xs font-semibold">🤖</div>
+        <div class="text-xs">前端</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-emerald-400 to-emerald-500 text-white px-1.5 py-1 rounded shadow-sm border border-emerald-300">
+      <div class="text-center">
+        <div class="text-xs font-semibold">🤖</div>
+        <div class="text-xs">后端</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-violet-400 to-violet-500 text-white px-1.5 py-1 rounded shadow-sm border border-violet-300">
+      <div class="text-center">
+        <div class="text-xs font-semibold">🤖</div>
+        <div class="text-xs">测试</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-amber-400 to-amber-500 text-white px-1.5 py-1 rounded shadow-sm border border-amber-300">
+      <div class="text-center">
+        <div class="text-xs font-semibold">🤖</div>
+        <div class="text-xs">移动</div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-r from-rose-400 to-rose-500 text-white px-1.5 py-1 rounded shadow-sm border border-rose-300">
+      <div class="text-center">
+        <div class="text-xs font-semibold">🤖</div>
+        <div class="text-xs">UI</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- AI能力总结 -->
+  <div class="bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-900 dark:to-purple-900 p-2 rounded border border-indigo-200 dark:border-indigo-700">
+    <h4 class="text-xs font-bold text-indigo-700 dark:text-indigo-300 mb-1">🚀 AI能力提升</h4>
+    <div class="text-xs text-gray-600 dark:text-gray-300 space-y-0.5">
+      <div>• 5个AI Agent替代初级工程师</div>
+      <div>• 中高级工程师配备AI助手</div>
+      <div>• 技术负责人获得AI架构支持</div>
+    </div>
+  </div>
+</div>
+
+<!-- 右侧：AI增强的项目分配 -->
+<div class="flex flex-col col-span-2">
+  <h3 class="text-base font-bold mb-3 text-center text-gray-700 dark:text-gray-300">AI增强的项目执行</h3>
+  
+  <div class="space-y-3">
+    <!-- 项目A -->
+    <div class="bg-white dark:bg-gray-800 border border-blue-200 dark:border-blue-700 rounded p-1.5 shadow-sm">
+      <div class="text-center mb-1">
+        <div class="text-xs font-bold text-blue-600 dark:text-blue-400">📊 项目A - 数据平台</div>
+        <div class="text-xs text-gray-500 dark:text-gray-400">AI加速：3x</div>
+      </div>
+      <div class="text-xs text-gray-600 dark:text-gray-300">
+        <div class="flex flex-wrap gap-1">
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-0.5"></span>负责人+AI</span>
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-0.5"></span>后端+AI</span>
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full mr-0.5"></span>前端Agent</span>
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-violet-500 rounded-full mr-0.5"></span>测试Agent</span>
+        </div>
+      </div>
+    </div>
+    <!-- 项目B -->
+    <div class="bg-white dark:bg-gray-800 border border-green-200 dark:border-green-700 rounded p-1.5 shadow-sm">
+      <div class="text-center mb-1">
+        <div class="text-xs font-bold text-green-600 dark:text-green-400">🛒 项目B - 电商系统</div>
+        <div class="text-xs text-gray-500 dark:text-gray-400">AI加速：2.5x</div>
+      </div>
+      <div class="text-xs text-gray-600 dark:text-gray-300">
+        <div class="flex flex-wrap gap-1">
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-0.5"></span>前端+AI</span>
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-emerald-500 rounded-full mr-0.5"></span>后端Agent</span>
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 rounded-full mr-0.5"></span>移动Agent</span>
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-rose-500 rounded-full mr-0.5"></span>UI Agent</span>
+        </div>
+      </div>
+    </div>
+    <!-- 项目C -->
+    <div class="bg-white dark:bg-gray-800 border border-orange-200 dark:border-orange-700 rounded p-1.5 shadow-sm">
+      <div class="text-center mb-1">
+        <div class="text-xs font-bold text-orange-600 dark:text-orange-400">🎯 项目C - 营销工具</div>
+        <div class="text-xs text-gray-500 dark:text-gray-400">AI加速：4x</div>
+      </div>
+      <div class="text-xs text-gray-600 dark:text-gray-300">
+        <div class="flex flex-wrap gap-1">
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-500 rounded-full mr-0.5"></span>运维+AI</span>
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full mr-0.5"></span>前端Agent</span>
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-emerald-500 rounded-full mr-0.5"></span>后端Agent</span>
+          <span class="flex items-center"><span class="w-1.5 h-1.5 bg-violet-500 rounded-full mr-0.5"></span>测试Agent</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- AI效率提升总结 -->
+  <div class="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900 dark:to-emerald-900 p-2 rounded border border-green-200 dark:border-green-700 mt-2">
+    <h4 class="text-xs font-bold text-green-700 dark:text-green-300 mb-1">📈 效率提升</h4>
+    <div class="text-xs text-gray-600 dark:text-gray-300 space-y-0.5">
+      <div>• 开发效率提升2-4倍</div>
+      <div>• 人力成本降低40%</div>
+      <div>• 代码质量显著提升</div>
+      <div>• 24/7持续交付能力</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+---
+layout: default
+---
+
+# AI+团队的技术选型
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+
+<!-- 左侧：传统技术选型 -->
+<div class="bg-gray-50 dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700">
+  <h3 class="text-base font-bold mb-2 text-center text-gray-700 dark:text-gray-300">🏗️ 传统技术选型</h3>
+  
+  <div class="space-y-2">
+    <!-- 服务架构 -->
+    <div class="bg-white dark:bg-gray-700 p-2 rounded border">
+      <div class="text-xs font-semibold text-blue-600 dark:text-blue-400 mb-1">服务架构</div>
+      <div class="text-xs text-gray-600 dark:text-gray-300 space-y-0.5">
+        <div>• Spring Boot / Express.js</div>
+        <div>• 传统服务器部署</div>
+        <div>• 手动扩缩容管理</div>
+        <div class="text-red-600 dark:text-red-400 font-semibold">❌ 配置复杂，AI难以理解</div>
+      </div>
+    </div>
+    <!-- 前端开发 -->
+    <div class="bg-white dark:bg-gray-700 p-3 rounded border">
+      <div class="text-xs font-semibold text-green-600 dark:text-green-400 mb-1">前端开发</div>
+      <div class="text-xs text-gray-600 dark:text-gray-300 space-y-0.5">
+        <div>• 指令式CSS (手写样式)</div>
+        <div>• 有状态组件为主</div>
+        <div>• 紧耦合UI逻辑</div>
+        <div class="text-red-600 dark:text-red-400 font-semibold">❌ 状态管理复杂，调试困难</div>
+      </div>
+    </div>
+    <!-- 开发范式 -->
+    <div class="bg-white dark:bg-gray-700 p-3 rounded border">
+      <div class="text-xs font-semibold text-orange-600 dark:text-orange-400 mb-1">开发范式</div>
+      <div class="text-xs text-gray-600 dark:text-gray-300 space-y-0.5">
+        <div>• 经典OOP范式</div>
+        <div>• 复杂继承层次</div>
+        <div>• 紧耦合类设计</div>
+        <div class="text-red-600 dark:text-red-400 font-semibold">❌ 数据状态耦合，AI辅助受限</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 右侧：AI时代技术选型 -->
+<div class="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900 dark:to-purple-900 p-3 rounded-lg border border-blue-200 dark:border-blue-700">
+  <h3 class="text-base font-bold mb-2 text-center text-blue-700 dark:text-blue-300">🤖 AI时代技术选型</h3>
+  
+  <div class="space-y-4">
+    <!-- Serverless架构 -->
+    <div class="bg-white dark:bg-gray-700 p-2 rounded border border-blue-200 dark:border-blue-600">
+      <div class="text-xs font-semibold text-blue-600 dark:text-blue-400 mb-1">Serverless架构</div>
+      <div class="text-xs text-gray-600 dark:text-gray-300 space-y-0.5">
+        <div>• Vercel / Netlify Functions</div>
+        <div>• 自动扩缩容</div>
+        <div>• 零配置部署</div>
+        <div class="text-green-600 dark:text-green-400 font-semibold">✓ AI友好：配置简单，易于理解</div>
+      </div>
+    </div>
+    <!-- 声明式开发 -->
+    <div class="bg-white dark:bg-gray-700 p-2 rounded border border-green-200 dark:border-green-600">
+      <div class="text-xs font-semibold text-green-600 dark:text-green-400 mb-1">声明式开发</div>
+      <div class="text-xs text-gray-600 dark:text-gray-300 space-y-0.5">
+        <div>• TailwindCSS (原子化CSS)</div>
+        <div>• 语义化类名</div>
+        <div>• 可预测的样式</div>
+        <div class="text-green-600 dark:text-green-400 font-semibold">✓ AI友好：模式化，易于生成</div>
+      </div>
+    </div>
+    <!-- Headless + Stateless -->
+    <div class="bg-white dark:bg-gray-700 p-2 rounded border border-purple-200 dark:border-purple-600">
+      <div class="text-xs font-semibold text-purple-600 dark:text-purple-400 mb-1">Headless + Stateless</div>
+      <div class="text-xs text-gray-600 dark:text-gray-300 space-y-0.5">
+        <div>• Headless CMS / API</div>
+        <div>• 纯函数组件</div>
+        <div>• 状态外置管理</div>
+        <div class="text-green-600 dark:text-green-400 font-semibold">✓ AI友好：逻辑清晰，易于测试</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+---
+layout: default
+---
+
+# AI+团队代码规范
+
+<div class="space-y-4">
+
+<!-- 语言选择对比 -->
 <div>
-  <h3 class="text-xl font-bold mb-4 text-red-600">🏢 组织结构问题</h3>
-  <div class="space-y-3">
-    <div class="flex items-center space-x-2">
-      <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-      <span>部门间沟通壁垒</span>
+  <h3 class="text-lg font-bold mb-3">📝 语言选择：TypeScript 优先</h3>
+  <div class="grid grid-cols-2 gap-4">
+    <div class="bg-red-50 dark:bg-red-900/20 p-3 rounded-lg border border-red-200 dark:border-red-700">
+      <h4 class="text-sm font-bold text-red-600 dark:text-red-400 mb-2">❌ JavaScript 挑战</h4>
+      <ul class="text-xs text-gray-600 dark:text-gray-300 space-y-1">
+        <li>• 动态类型，AI难以推断</li>
+        <li>• 运行时错误频发</li>
+        <li>• 代码意图不明确</li>
+        <li>• 重构风险高</li>
+      </ul>
     </div>
-    <div class="flex items-center space-x-2">
-      <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-      <span>决策链条冗长</span>
-    </div>
-    <div class="flex items-center space-x-2">
-      <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-      <span>资源配置不灵活</span>
-    </div>
-    <div class="flex items-center space-x-2">
-      <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-      <span>创新动力不足</span>
-    </div>
-  </div>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4 text-orange-600">👥 协作效率瓶颈</h3>
-  <div class="space-y-3">
-    <div class="flex items-center space-x-2">
-      <div class="w-2 h-2 bg-orange-500 rounded-full"></div>
-      <span>信息传递延迟</span>
-    </div>
-    <div class="flex items-center space-x-2">
-      <div class="w-2 h-2 bg-orange-500 rounded-full"></div>
-      <span>重复工作严重</span>
-    </div>
-    <div class="flex items-center space-x-2">
-      <div class="w-2 h-2 bg-orange-500 rounded-full"></div>
-      <span>知识孤岛现象</span>
-    </div>
-    <div class="flex items-center space-x-2">
-      <div class="w-2 h-2 bg-orange-500 rounded-full"></div>
-      <span>技能发展不均衡</span>
+    <div class="bg-green-50 dark:bg-green-900/20 p-3 rounded-lg border border-green-200 dark:border-green-700">
+      <h4 class="text-sm font-bold text-green-600 dark:text-green-400 mb-2">✅ TypeScript 优势</h4>
+      <ul class="text-xs text-gray-600 dark:text-gray-300 space-y-1">
+        <li>• 静态类型，AI精准理解</li>
+        <li>• 编译时错误检查</li>
+        <li>• 代码自文档化</li>
+        <li>• 安全重构支持</li>
+      </ul>
     </div>
   </div>
 </div>
 
-</div>
-
-<div class="mt-8 p-4 bg-blue-50 border-l-4 border-blue-400">
-  <p class="text-sm"><strong>变革驱动力：</strong>AI技术为团队组织和协作模式带来根本性变革机遇</p>
-</div>
-
----
-layout: default
----
-
-# AI驱动的团队新架构
-
-<div class="space-y-8">
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">🤖 人机协作模式</h3>
-  <div class="grid grid-cols-3 gap-4">
-    <ColorCard title="AI助手角色" description="• 代码生成助手<br>• 测试自动化<br>• 文档维护<br>• 问题诊断" color="blue" />
-    <ColorCard title="人类专家角色" description="• 架构设计<br>• 创新思考<br>• 用户体验<br>• 团队协调" color="green" />
-    <ColorCard title="协作界面" description="• 智能工作流<br>• 实时反馈<br>• 知识共享<br>• 持续学习" color="purple" />
-  </div>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">🔄 敏捷协作流程</h3>
-  <div class="grid grid-cols-4 gap-3">
-    <ColorCard title="需求理解" description="AI辅助分析" color="orange" size="small" centered />
-    <ColorCard title="快速原型" description="智能生成" color="red" size="small" centered />
-    <ColorCard title="迭代优化" description="实时反馈" color="teal" size="small" centered />
-    <ColorCard title="持续部署" description="自动化流程" color="yellow" size="small" centered />
-  </div>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">📊 数据驱动决策</h3>
-  <div class="grid grid-cols-2 gap-6">
-    <ColorCard title="实时监控指标" description="• 代码质量趋势<br>• 团队效率指标<br>• 用户满意度<br>• 技术债务水平" color="indigo" />
-    <ColorCard title="智能决策支持" description="• 资源分配建议<br>• 风险预警机制<br>• 优化方案推荐<br>• 趋势预测分析" color="pink" />
-  </div>
-</div>
-
-</div>
-
----
-layout: two-cols
----
-
-# 团队角色重新定义
-
-::left::
-
-## 🎯 传统角色
-
-<div class="space-y-4 mt-6">
-
-<div class="p-4 bg-gray-50 rounded-lg">
-  <div class="font-semibold mb-2">前端工程师</div>
-  <div class="text-sm text-gray-600">• 编写UI代码<br>• 处理用户交互<br>• 优化页面性能<br>• 兼容性测试</div>
-</div>
-
-<div class="p-4 bg-gray-50 rounded-lg">
-  <div class="font-semibold mb-2">后端工程师</div>
-  <div class="text-sm text-gray-600">• 设计API接口<br>• 数据库操作<br>• 业务逻辑实现<br>• 系统架构</div>
-</div>
-
-<div class="p-4 bg-gray-50 rounded-lg">
-  <div class="font-semibold mb-2">测试工程师</div>
-  <div class="text-sm text-gray-600">• 编写测试用例<br>• 执行功能测试<br>• 性能测试<br>• 缺陷跟踪</div>
-</div>
-
-</div>
-
-::right::
-
-## ⚡ AI时代新角色
-
-<div class="space-y-4 mt-6">
-
-<div class="p-4 bg-blue-50 rounded-lg">
-  <div class="font-semibold mb-2">AI增强开发者</div>
-  <div class="text-sm text-gray-600">• 人机协作编程<br>• AI工具集成<br>• 智能调试分析<br>• 创新方案设计</div>
-</div>
-
-<div class="p-4 bg-green-50 rounded-lg">
-  <div class="font-semibold mb-2">全栈AI工程师</div>
-  <div class="text-sm text-gray-600">• 端到端开发<br>• AI模型集成<br>• 数据流设计<br>• 用户体验优化</div>
-</div>
-
-<div class="p-4 bg-purple-50 rounded-lg">
-  <div class="font-semibold mb-2">智能质量保证</div>
-  <div class="text-sm text-gray-600">• AI测试策略<br>• 自动化流程<br>• 预测性分析<br>• 持续优化</div>
-</div>
-
-</div>
-
----
-layout: default
----
-
-# 团队能力发展矩阵
-
-<div class="space-y-6">
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">🎓 技能发展路径</h3>
-  <div class="grid grid-cols-4 gap-4">
-    <div class="p-4 bg-blue-50 rounded-lg">
-      <div class="font-semibold mb-2 text-center">初级阶段</div>
-      <div class="text-sm text-gray-600">• AI工具使用<br>• 基础提示工程<br>• 代码辅助理解<br>• 简单自动化</div>
+<!-- 配置管理革新 -->
+<div>
+  <h3 class="text-lg font-bold mb-3">⚙️ 配置管理：Prompt 驱动</h3>
+  <div class="grid grid-cols-2 gap-4">
+    <div class="bg-orange-50 dark:bg-orange-900/20 p-3 rounded-lg border border-orange-200 dark:border-orange-700">
+      <h4 class="text-sm font-bold text-orange-600 dark:text-orange-400 mb-2">🔧 传统配置文件</h4>
+      <ul class="text-xs text-gray-600 dark:text-gray-300 space-y-1">
+        <li>• 复杂的JSON/YAML配置</li>
+        <li>• 手动维护项目模板</li>
+        <li>• 配置分散难管理</li>
+        <li>• 学习成本高</li>
+      </ul>
     </div>
-    <div class="p-4 bg-green-50 rounded-lg">
-      <div class="font-semibold mb-2 text-center">中级阶段</div>
-      <div class="text-sm text-gray-600">• 工作流集成<br>• 复杂提示设计<br>• AI模型调优<br>• 团队协作优化</div>
+    <div class="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg border border-blue-200 dark:border-blue-700">
+      <h4 class="text-sm font-bold text-blue-600 dark:text-blue-400 mb-2">🤖 Prompt/Project Rules</h4>
+      <ul class="text-xs text-gray-600 dark:text-gray-300 space-y-1">
+        <li>• 自然语言描述需求</li>
+        <li>• AI自动生成配置</li>
+        <li>• 统一的规则文件</li>
+        <li>• 零学习成本</li>
+      </ul>
     </div>
-    <div class="p-4 bg-purple-50 rounded-lg">
-      <div class="font-semibold mb-2 text-center">高级阶段</div>
-      <div class="text-sm text-gray-600">• 架构设计<br>• 创新应用<br>• 性能优化<br>• 技术决策</div>
-    </div>
-    <div class="p-4 bg-orange-50 rounded-lg">
-      <div class="font-semibold mb-2 text-center">专家阶段</div>
-      <div class="text-sm text-gray-600">• 技术引领<br>• 生态建设<br>• 知识传承<br>• 战略规划</div>
-    </div>
-  </div>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">📈 能力评估维度</h3>
-  <div class="grid grid-cols-3 gap-6">
-    <div class="p-4 bg-yellow-50 rounded-lg">
-      <div class="font-semibold mb-2">技术能力</div>
-      <div class="text-sm text-gray-600">• AI工具熟练度<br>• 代码质量水平<br>• 问题解决能力<br>• 创新思维</div>
-    </div>
-    <div class="p-4 bg-pink-50 rounded-lg">
-      <div class="font-semibold mb-2">协作能力</div>
-      <div class="text-sm text-gray-600">• 沟通表达<br>• 团队合作<br>• 知识分享<br>• 冲突解决</div>
-    </div>
-    <div class="p-4 bg-indigo-50 rounded-lg">
-      <div class="font-semibold mb-2">学习能力</div>
-      <div class="text-sm text-gray-600">• 适应性<br>• 自主学习<br>• 反思总结<br>• 持续改进</div>
-    </div>
-  </div>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">🎯 个性化发展计划</h3>
-  <div class="p-6 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg">
-    <div class="text-lg font-semibold mb-2">AI驱动的人才发展</div>
-    <p class="text-sm opacity-90">基于个人特长和兴趣，AI系统推荐最适合的学习路径和发展方向</p>
   </div>
 </div>
 
@@ -217,64 +506,122 @@ layout: default
 layout: default
 ---
 
-# 智能协作工具生态
+# AI+团队工程规范
 
-<div class="space-y-6">
+<div class="space-y-2">
 
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">💬 沟通协作平台</h3>
-  <div class="grid grid-cols-3 gap-4">
-    <div class="p-4 bg-blue-50 rounded-lg text-center">
-      <div class="font-semibold mb-2">智能会议助手</div>
-      <div class="text-sm text-gray-600">自动记录、总结、分配任务</div>
+<!-- Project Rules 迭代管理 -->
+<div>
+  <h3 class="text-sm font-bold mb-1">📋 Project Rules 迭代管理</h3>
+  <div class="grid grid-cols-2 gap-2">
+    <div class="bg-blue-50 dark:bg-blue-900/20 p-1.5 rounded border border-blue-200 dark:border-blue-700">
+      <h4 class="text-xs font-bold text-blue-600 dark:text-blue-400 mb-0.5">📝 .trae/project_rules.md</h4>
+      <ul class="text-xs text-gray-600 dark:text-gray-300 space-y-0">
+        <li>技术栈选型规范</li>
+        <li>代码风格约定</li>
+        <li>组件设计原则</li>
+      </ul>
     </div>
-    <div class="p-4 bg-green-50 rounded-lg text-center">
-      <div class="font-semibold mb-2">实时翻译</div>
-      <div class="text-sm text-gray-600">跨语言团队无障碍沟通</div>
-    </div>
-    <div class="p-4 bg-purple-50 rounded-lg text-center">
-      <div class="font-semibold mb-2">情感分析</div>
-      <div class="text-sm text-gray-600">团队氛围监测和改善建议</div>
+    <div class="bg-green-50 dark:bg-green-900/20 p-1.5 rounded border border-green-200 dark:border-green-700">
+      <h4 class="text-xs font-bold text-green-600 dark:text-green-400 mb-0.5">🔄 动态更新机制</h4>
+      <ul class="text-xs text-gray-600 dark:text-gray-300 space-y-0">
+        <li>AI学习团队偏好</li>
+        <li>自动优化规则</li>
+        <li>团队反馈集成</li>
+      </ul>
     </div>
   </div>
 </div>
 
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">📋 项目管理工具</h3>
-  <div class="grid grid-cols-3 gap-4">
-    <div class="p-4 bg-orange-50 rounded-lg text-center">
-      <div class="font-semibold mb-2">智能排期</div>
-      <div class="text-sm text-gray-600">基于历史数据预测项目周期</div>
+<!-- Memory Bank 知识管理 -->
+<div>
+  <h3 class="text-sm font-bold mb-1">🧠 Memory Bank 知识管理</h3>
+  <div class="grid grid-cols-3 gap-1.5">
+    <div class="bg-purple-50 dark:bg-purple-900/20 p-1.5 rounded border border-purple-200 dark:border-purple-700 text-center">
+      <div class="text-xs font-bold text-purple-600 dark:text-purple-400">📊 globalContext.md</div>
+      <div class="text-xs text-gray-600 dark:text-gray-300">项目全局上下文、技术架构记录</div>
     </div>
-    <div class="p-4 bg-red-50 rounded-lg text-center">
-      <div class="font-semibold mb-2">风险预警</div>
-      <div class="text-sm text-gray-600">提前识别项目风险点</div>
+    <div class="bg-orange-50 dark:bg-orange-900/20 p-1.5 rounded border border-orange-200 dark:border-orange-700 text-center">
+      <div class="text-xs font-bold text-orange-600 dark:text-orange-400">⚡ activeContext.md</div>
+      <div class="text-xs text-gray-600 dark:text-gray-300">当前开发状态、活跃任务追踪</div>
     </div>
-    <div class="p-4 bg-teal-50 rounded-lg text-center">
-      <div class="font-semibold mb-2">资源优化</div>
-      <div class="text-sm text-gray-600">动态调整人员和资源分配</div>
-    </div>
-  </div>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">🧠 知识管理系统</h3>
-  <div class="grid grid-cols-3 gap-4">
-    <div class="p-4 bg-yellow-50 rounded-lg text-center">
-      <div class="font-semibold mb-2">智能搜索</div>
-      <div class="text-sm text-gray-600">语义理解的知识检索</div>
-    </div>
-    <div class="p-4 bg-pink-50 rounded-lg text-center">
-      <div class="font-semibold mb-2">自动归档</div>
-      <div class="text-sm text-gray-600">智能分类和标签管理</div>
-    </div>
-    <div class="p-4 bg-indigo-50 rounded-lg text-center">
-      <div class="font-semibold mb-2">知识推荐</div>
-      <div class="text-sm text-gray-600">基于工作场景推送相关知识</div>
+    <div class="bg-cyan-50 dark:bg-cyan-900/20 p-1.5 rounded border border-cyan-200 dark:border-cyan-700 text-center">
+      <div class="text-xs font-bold text-cyan-600 dark:text-cyan-400">📈 progress.md</div>
+      <div class="text-xs text-gray-600 dark:text-gray-300">开发进度记录、里程碑管理</div>
     </div>
   </div>
 </div>
 
+<!-- AI 辅助单元测试 -->
+<div>
+  <h3 class="text-sm font-bold mb-1">🧪 AI 辅助单元测试</h3>
+  <div class="grid grid-cols-2 gap-2">
+    <div class="bg-emerald-50 dark:bg-emerald-900/20 p-1.5 rounded border border-emerald-200 dark:border-emerald-700">
+      <h4 class="text-xs font-bold text-emerald-600 dark:text-emerald-400 mb-0.5">🤖 智能测试生成</h4>
+      <ul class="text-xs text-gray-600 dark:text-gray-300 space-y-0">
+        <li>基于代码逻辑自动生成测试用例</li>
+        <li>边界条件和异常场景覆盖</li>
+        <li>Mock 数据智能生成</li>
+        <li>测试断言自动推断</li>
+      </ul>
+    </div>
+    <div class="bg-rose-50 dark:bg-rose-900/20 p-1.5 rounded border border-rose-200 dark:border-rose-700">
+      <h4 class="text-xs font-bold text-rose-600 dark:text-rose-400 mb-0.5">📊 测试质量分析</h4>
+      <ul class="text-xs text-gray-600 dark:text-gray-300 space-y-0">
+        <li>代码覆盖率实时监控</li>
+        <li>测试用例质量评估</li>
+        <li>重复测试识别优化</li>
+        <li>测试维护成本分析</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+
+---
+layout: default
+---
+
+# AI+技术团队的能力边界扩展
+
+<div class="grid grid-cols-2 gap-4 mt-8">
+  <div class="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg border border-blue-200 dark:border-blue-700 text-center">
+    <div class="text-2xl mb-2">🔧</div>
+    <h3 class="text-lg font-bold text-blue-600 dark:text-blue-400">借助 AI 重构老代码</h3>
+  </div>
+  
+  <div class="bg-green-50 dark:bg-green-900/20 p-6 rounded-lg border border-green-200 dark:border-green-700 text-center">
+    <div class="text-2xl mb-2">🚀</div>
+    <h3 class="text-lg font-bold text-green-600 dark:text-green-400">借助 AI 跨技术栈迁移</h3>
+  </div>
+  
+  <div class="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg border border-purple-200 dark:border-purple-700 text-center">
+    <div class="text-2xl mb-2">🎨</div>
+    <h3 class="text-lg font-bold text-purple-600 dark:text-purple-400">无技术栈依赖的新型设计系统</h3>
+  </div>
+  
+  <div class="bg-indigo-50 dark:bg-indigo-900/20 p-6 rounded-lg border border-indigo-200 dark:border-indigo-700 text-center">
+    <div class="text-2xl mb-2">🤖</div>
+    <h3 class="text-lg font-bold text-indigo-600 dark:text-indigo-400">Agentic Software Engineer</h3>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# 💬 开放讨论
+
+<div class="flex flex-col items-center space-y-8">
+  <img 
+    src="https://bot.hupox.com/resource/9r744efhue/45ec5b51829c43e29c8e6182bda8838d.png" 
+    alt="AI时代人才讨论场景图" 
+    class="max-w-lg w-full h-auto rounded-lg shadow-lg"
+  />
+  <h1 class="text-4xl font-bold text-gray-800 dark:text-white">
+    在AI时代，团队需要吸收什么样的新型人才？
+  </h1>
 </div>
 
 ---
@@ -285,7 +632,7 @@ layout: default
 
 <div class="space-y-6">
 
-<div v-click>
+<div>
   <h3 class="text-xl font-bold mb-4">🌟 新时代团队价值观</h3>
   <div class="grid grid-cols-2 gap-6">
     <div class="space-y-4">
@@ -311,7 +658,7 @@ layout: default
   </div>
 </div>
 
-<div v-click>
+<div>
   <h3 class="text-xl font-bold mb-4">🔄 文化转型策略</h3>
   <div class="grid grid-cols-4 gap-4">
     <div class="p-4 bg-red-50 rounded-lg text-center">
@@ -333,94 +680,6 @@ layout: default
   </div>
 </div>
 
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">📊 文化建设成效评估</h3>
-  <div class="grid grid-cols-3 gap-6">
-    <div class="p-4 bg-indigo-50 rounded-lg">
-      <div class="font-semibold mb-2">量化指标</div>
-      <div class="text-sm text-gray-600">• AI工具使用率<br>• 创新项目数量<br>• 学习时间投入<br>• 跨部门协作频次</div>
-    </div>
-    <div class="p-4 bg-blue-50 rounded-lg">
-      <div class="font-semibold mb-2">定性评估</div>
-      <div class="text-sm text-gray-600">• 员工满意度调研<br>• 文化认同度<br>• 创新氛围感知<br>• 学习积极性</div>
-    </div>
-    <div class="p-4 bg-green-50 rounded-lg">
-      <div class="font-semibold mb-2">持续改进</div>
-      <div class="text-sm text-gray-600">• 定期文化诊断<br>• 反馈机制建立<br>• 最佳实践分享<br>• 文化活动策划</div>
-    </div>
-  </div>
-</div>
-
-</div>
-
----
-layout: default
----
-
-# 成功案例：AI驱动的敏捷团队
-
-<div class="space-y-6">
-
-<div class="p-6 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg">
-  <h3 class="text-xl font-bold mb-3">🏢 某科技公司前端团队转型</h3>
-  <p class="mb-2">从传统开发模式向AI增强敏捷团队的成功转型</p>
-  <div class="text-sm opacity-90">团队规模：15人，转型周期：6个月</div>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">🔄 转型过程</h3>
-  <div class="grid grid-cols-3 gap-4">
-    <div class="p-4 bg-green-50 rounded-lg">
-      <div class="font-semibold mb-2">第一阶段（1-2月）</div>
-      <div class="text-sm text-gray-600">• AI工具培训<br>• 基础流程改造<br>• 试点项目启动<br>• 文化宣导</div>
-    </div>
-    <div class="p-4 bg-blue-50 rounded-lg">
-      <div class="font-semibold mb-2">第二阶段（3-4月）</div>
-      <div class="text-sm text-gray-600">• 全面工具集成<br>• 协作模式优化<br>• 技能深度培养<br>• 效果评估</div>
-    </div>
-    <div class="p-4 bg-purple-50 rounded-lg">
-      <div class="font-semibold mb-2">第三阶段（5-6月）</div>
-      <div class="text-sm text-gray-600">• 创新应用探索<br>• 最佳实践总结<br>• 经验对外分享<br>• 持续优化</div>
-    </div>
-  </div>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">📈 转型成果</h3>
-  <div class="grid grid-cols-4 gap-4">
-    <div class="p-4 bg-blue-50 rounded-lg text-center">
-      <div class="text-2xl font-bold text-blue-600">70%</div>
-      <div class="text-sm text-gray-600">开发效率提升</div>
-    </div>
-    <div class="p-4 bg-green-50 rounded-lg text-center">
-      <div class="text-2xl font-bold text-green-600">50%</div>
-      <div class="text-sm text-gray-600">Bug减少</div>
-    </div>
-    <div class="p-4 bg-purple-50 rounded-lg text-center">
-      <div class="text-2xl font-bold text-purple-600">90%</div>
-      <div class="text-sm text-gray-600">员工满意度</div>
-    </div>
-    <div class="p-4 bg-orange-50 rounded-lg text-center">
-      <div class="text-2xl font-bold text-orange-600">3x</div>
-      <div class="text-sm text-gray-600">创新项目数量</div>
-    </div>
-  </div>
-</div>
-
-<div v-click>
-  <h3 class="text-xl font-bold mb-4">💡 关键成功因素</h3>
-  <div class="grid grid-cols-2 gap-6">
-    <div class="p-4 bg-yellow-50 rounded-lg">
-      <div class="font-semibold mb-2">领导层支持</div>
-      <div class="text-sm text-gray-600">高层重视，资源投入充足，为转型提供强有力保障</div>
-    </div>
-    <div class="p-4 bg-pink-50 rounded-lg">
-      <div class="font-semibold mb-2">员工参与</div>
-      <div class="text-sm text-gray-600">全员参与，积极反馈，共同推动转型进程</div>
-    </div>
-  </div>
-</div>
-
 </div>
 
 ---
@@ -430,30 +689,58 @@ class: text-center
 
 # 小结
 
-<div class="space-y-6 mt-8">
+<div class="max-w-4xl mx-auto mt-8">
 
-<div class="text-lg">
-  ✅ 识别传统研发团队的组织挑战
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+  
+  <div class="bg-gradient-to-br from-red-50 to-orange-100 dark:from-red-900/20 dark:to-orange-900/20 p-6 rounded-xl shadow-lg border border-red-200 dark:border-red-700">
+    <div class="flex items-center mb-3">
+      <span class="text-2xl mr-3">🏗️</span>
+      <h4 class="text-lg font-bold text-red-800 dark:text-red-200">团队组织架构重塑</h4>
+    </div>
+    <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed !m-0">
+       构建AI驱动的新型团队架构和人机协作模式
+     </p>
+  </div>
+
+  <div class="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl shadow-lg border border-blue-200 dark:border-blue-700">
+    <div class="flex items-center mb-3">
+      <span class="text-2xl mr-3">⚙️</span>
+      <h4 class="text-lg font-bold text-blue-800 dark:text-blue-200">AI友好技术选型</h4>
+    </div>
+    <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed !m-0">
+       函数式编程、声明式UI、Serverless等AI友好的技术栈选择
+     </p>
+  </div>
+
+  <div class="bg-gradient-to-br from-green-50 to-emerald-100 dark:from-green-900/20 dark:to-emerald-900/20 p-6 rounded-xl shadow-lg border border-green-200 dark:border-green-700">
+    <div class="flex items-center mb-3">
+      <span class="text-2xl mr-3">📋</span>
+      <h4 class="text-lg font-bold text-green-800 dark:text-green-200">智能工程规范</h4>
+    </div>
+    <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed !m-0">
+       Project Rules、Memory Bank知识管理和AI辅助测试体系
+     </p>
+  </div>
+
+  <div class="bg-gradient-to-br from-purple-50 to-violet-100 dark:from-purple-900/20 dark:to-violet-900/20 p-6 rounded-xl shadow-lg border border-purple-200 dark:border-purple-700">
+    <div class="flex items-center mb-3">
+      <span class="text-2xl mr-3">🚀</span>
+      <h4 class="text-lg font-bold text-purple-800 dark:text-purple-200">能力边界扩展</h4>
+    </div>
+    <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed !m-0">
+        AI重构老代码、跨技术栈迁移、新型设计系统能力扩展
+      </p>
+  </div>
+
 </div>
 
-<div v-click class="text-lg">
-  ✅ 构建AI驱动的新型团队架构
+<div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 rounded-xl shadow-xl">
+  <h3 class="text-xl font-bold mb-2 flex items-center justify-center">
+    <span class="text-2xl mr-3">🚀</span>
+    下一步：展望AI时代的前端未来之路
+  </h3>
+  <p class="text-blue-100 text-sm">探索AI原生开发范式和前端技术的未来发展趋势</p>
 </div>
 
-<div v-click class="text-lg">
-  ✅ 重新定义团队角色和能力要求
-</div>
-
-<div v-click class="text-lg">
-  ✅ 建立智能协作工具生态
-</div>
-
-<div v-click class="text-lg">
-  ✅ 推动团队文化与价值观转型
-</div>
-
-</div>
-
-<div class="mt-12">
-  <h3 class="text-xl font-bold text-blue-600">下一步：展望AI时代的前端未来之路</h3>
 </div>

@@ -6,9 +6,9 @@ Usage: <ColorCard emoji="🎯" title="标题" description="描述文字" color="
 
 <template>
   <div :class="cardClasses">
-    <div v-if="emoji" class="text-2xl mb-2">{{ emoji }}</div>
-    <div class="font-semibold" :class="titleClasses">{{ title }}</div>
-    <div v-if="description" class="text-sm text-gray-600 dark:text-gray-300 mt-1">{{ description }}</div>
+    <div v-if="emoji" class="text-xl mb-1">{{ emoji }}</div>
+    <div class="font-semibold text-sm" :class="titleClasses">{{ title }}</div>
+    <div v-if="description" class="text-xs text-gray-600 dark:text-gray-300 mt-1 leading-tight" v-html="description"></div>
     <slot></slot>
   </div>
 </template>
