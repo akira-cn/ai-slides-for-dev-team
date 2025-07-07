@@ -119,7 +119,7 @@ layout: default
            class="w-24 h-24 rounded-full object-cover border-2 border-gray-200">
     </div>
     <div class="text-center md:text-left">
-      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-1">月影老师</h2>
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-1">月影</h2>
       <p class="text-gray-700 dark:text-white font-medium mb-2">Grasp.AI 联合创始人 · 前端技术专家</p>
       <p class="text-sm text-gray-600 dark:text-white">致力于推动前端技术创新，在JavaScript、数据可视化、前端架构等领域有深入研究</p>
     </div>

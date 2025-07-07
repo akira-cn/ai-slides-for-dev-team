@@ -21,9 +21,9 @@ transition: slide-left
 mdc: true
 ---
 
-# AI x 前端：智能化开发的新纪元
+# AI x 前端
 
-## 开发团队AI能力提升培训
+## 打造人工智能时代的新前端团队
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
